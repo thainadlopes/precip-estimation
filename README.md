@@ -6,7 +6,7 @@ Para facilitar a implementação, também foi utilizada a biblioteca oficial [Sa
 ## Descrição
 O código implementa um pipeline composto pelas seguintes etapas:
 - **Pré-processamento** dos dados SatRain;
-- **Treinamento** de um modelo baseado em **XGBoost** para:
+- **Treinamento** do modelo **XGBoost** para:
   - Estimativa de precipitação;
   - Detecção de precipitação;
 - **Avaliação** do desempenho do modelo por meio de métricas estatísticas como: Bias, MSE, MAE, SMAPE, Coeficiente de correlação linear e Resolução efetiva.
